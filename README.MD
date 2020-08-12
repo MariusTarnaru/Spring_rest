@@ -1,4 +1,4 @@
-# Homework due on 22/08/2020
+# Homework due 22/08/2020
 
 1. Request access and DM Valeriu to let him know about your request, then clone this repository using HTTPS
 2. Open the project located at "2020.08.09-Day2/library" in IntelliJ IDEA
