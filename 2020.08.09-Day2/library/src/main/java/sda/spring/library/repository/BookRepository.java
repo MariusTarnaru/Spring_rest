@@ -28,4 +28,14 @@ public class BookRepository {
     public void save(Book newBook) {
         books.add(newBook);
     }
+
+    public Book getBookByISBN(String isbn) {
+        Book bookToReturn = null;
+        for (Book book : books) {
+            if (book.getISNB().equals(isbn)) {
+                bookToReturn = book;
+            }
+        }
+        return bookToReturn;
+    }
 }

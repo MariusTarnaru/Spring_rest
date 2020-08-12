@@ -24,4 +24,9 @@ public class LibraryApplication {
     public void save(Book newBook) {
         bookService.save(newBook);
     }
+
+    public Book getBookByISBN(String isbn) {
+        return bookService.getBookByISBN(isbn);
+
+    }
 }
