@@ -1,5 +1,4 @@
 # Homework due 22/08/2020
-
 1. Request access and DM Valeriu to let him know about your request, then clone this repository using HTTPS
 2. Open the project located at "2020.08.09-Day2/library" in IntelliJ IDEA
 3. Checkout on a different branch (using git). Don't forget to fetch and pull first. The branch name should be sugestive, briefly telling about the feature it will contain.
@@ -14,5 +13,5 @@
 5. Push (to remote) your code onto the feature branch you created on item no. 3 
 6. Go on Gitlab and create a **pull (merge) request** with Valeriu Moise as asignee
 7. If there are conflicts, solve them by merging the `master` branch into your `feature branch` and push the code again 
-
 Have fun !
+**Note: The person who writes a command/script/linux command/piece of code that automatically sorts the names of the students above and pushes it on a feature branch may skip his/her homework.**
