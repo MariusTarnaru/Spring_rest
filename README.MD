@@ -14,4 +14,4 @@
 6. Go on Gitlab and create a **pull (merge) request** with Valeriu Moise as asignee
 7. If there are conflicts, solve them by merging the `master` branch into your `feature branch` and push the code again 
 Have fun ! \
-**Note: The person who writes a command/script/linux command/piece of code that automatically sorts the names of the students above (keeping the rest of the file as it is) and pushes it on a feature branch may skip his/her homework.**
+**Note: The person who writes a command/script/linux command/piece of code that automatically sorts the names of the students above (keeping the rest of the file as it is) and pushes it on a feature branch and creates a pull (merge) request may skip his/her homework.**
