@@ -30,12 +30,11 @@ public class BookRepository {
     }
 
     public Book getBookByISBN(String isbn) {
-        Book bookToReturn = null;
         for (Book book : books) {
             if (book.getISNB().equals(isbn)) {
-                bookToReturn = book;
+                return book;
             }
         }
-        return bookToReturn;
+        return null;
     }
 }

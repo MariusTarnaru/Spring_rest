@@ -33,7 +33,7 @@ public class LibraryClient {
             System.out.println(book.toString());
         }
         //testing getBookByISBN method
-        System.out.println(libraryApplication.getBookByISBN("13RAF3234").toString());
+        System.out.println("\n"+libraryApplication.getBookByISBN("13RAF3234").toString());
     }
 
 }
