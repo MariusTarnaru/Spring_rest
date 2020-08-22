@@ -32,8 +32,8 @@ public class LibraryClient {
         for (Book book : books) {
             System.out.println(book.toString());
         }
-
-
+        //testing getBookByISBN method
+        System.out.println("\n"+libraryApplication.getBookByISBN("13RAF3234").toString());
     }
 
 }

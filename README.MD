@@ -7,11 +7,11 @@
 **Andra Ștefana Livadaru** - I want to be able to delete all the books from the library. \
 **Mihail Mădălin Constantinescu** - Given a `Genre`, I want to receive all the books of that genre from the library \
 **Ovidiu-Andrei Burduja** - On book save, validate that the `ISBN`, `author` and `author name` fields are not null. A custom exception should be thrown if those fields are null. \
-**George Ionuț** Sabie - Given an ISBN, I want to receive the Book with that ISBN from the library \
+**George Ionuț Sabie** - Given an ISBN, I want to receive the Book with that ISBN from the library \
 **Cezar Diac** - On book save, validate that the `genre` and the `title` fields are not null. A custom exception should be thrown if those fields are null. \
-**Bosac Ionut** - Given an ISBN, I want to receive a `true` if there is a book with that ISBN in the library or `false` otherwise
+**Bosac Ionut** - Given an ISBN, I want to receive a `true` if there is a book with that ISBN in the library and `false` otherwise
 5. Push (to remote) your code onto the feature branch you created on item no. 3 
 6. Go on Gitlab and create a **pull (merge) request** with Valeriu Moise as asignee
 7. If there are conflicts, solve them by merging the `master` branch into your `feature branch` and push the code again 
-Have fun !
-**Note: The person who writes a command/script/linux command/piece of code that automatically sorts the names of the students above and pushes it on a feature branch may skip his/her homework.**
+Have fun ! \
+**Note: The person who writes a command/script/linux command/piece of code that automatically sorts the names of the students above (keeping the rest of the file as it is) and pushes it on a feature branch and creates a pull (merge) request may skip his/her homework.**
