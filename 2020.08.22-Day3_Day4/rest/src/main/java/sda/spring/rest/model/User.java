@@ -1,5 +1,6 @@
 package sda.spring.rest.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -11,6 +12,8 @@ public class User {
     @GeneratedValue
     private long id;
     private String name;
+
+    @Column(unique = true)
     private String email;
     private String password;
 
