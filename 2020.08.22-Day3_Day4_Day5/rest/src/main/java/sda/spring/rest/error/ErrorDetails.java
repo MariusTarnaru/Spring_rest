@@ -5,7 +5,6 @@ import java.util.Date;
 public class ErrorDetails {
 
     private String message;
-    private String details;
     private String validationType;
     private Date timestamp;
 
@@ -18,15 +17,6 @@ public class ErrorDetails {
 
     public ErrorDetails setMessage(String message) {
         this.message = message;
-        return this;
-    }
-
-    public String getDetails() {
-        return details;
-    }
-
-    public ErrorDetails setDetails(String details) {
-        this.details = details;
         return this;
     }
 

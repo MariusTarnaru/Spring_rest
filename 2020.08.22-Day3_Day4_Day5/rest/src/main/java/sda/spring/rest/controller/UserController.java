@@ -1,17 +1,18 @@
 package sda.spring.rest.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
+import sda.spring.rest.controller.dto.UserStatus;
 import sda.spring.rest.model.User;
 import sda.spring.rest.service.UserService;
 
-import javax.websocket.server.PathParam;
-import java.util.Collections;
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController
 @RequestMapping("/api")
+@Validated
 public class UserController {
 
     private UserService userService;
@@ -32,8 +33,14 @@ public class UserController {
     }
 
     @GetMapping("/users/{id}")
-    public User getUserById(@PathVariable("id") Long userId){
+    public User getUserById(@PathVariable("id") Long userId) {
         return userService.findById(userId);
+    }
+
+    @PatchMapping("/users/{id}")
+    public User updateStatus(@PathVariable("id") Long userId,
+                             @RequestBody @Valid UserStatus userStatus) {
+        return userService.updateStatus(userId, userStatus.getStatus());
     }
 
 }

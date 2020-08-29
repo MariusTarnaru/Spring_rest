@@ -43,4 +43,14 @@ public class UserService {
 //            return userOptional.get();
 //        }
     }
+
+    public User updateStatus(Long userId, String newStatus) {
+//        3-liner
+//        User user = findById(userId);
+//        user.setStatus(newStatus);
+//        return userRepository.save(user);
+
+//        1-liner
+        return userRepository.save(findById(userId).setStatus(newStatus));
+    }
 }
