@@ -20,6 +20,14 @@ public class UserService {
         this.userRepository = userRepository;
     }
 
+    public void save(UserDTO user) {
+        userRepository.save(toEntity(user));
+    }
+
+    public UserDTO findById(Long userId) {
+        return toDTO(userRepository.getOne(userId));
+    }
+
     public List<UserDTO> getAll() {
         List<User> users = userRepository.findAll();
         List<UserDTO> userDTOS = new LinkedList<>();
@@ -30,14 +38,18 @@ public class UserService {
         return userDTOS;
     }
 
+    public void update(UserDTO userDTO) {
+        userRepository.save(toEntity(userDTO));
+    }
+
+    public void deleteById(Long userId) {
+        userRepository.deleteById(userId);
+    }
+
     public List<UserDTO> getAllWithStreams() {
         return userRepository.findAll().stream()
                 .map(this::toDTO)
                 .collect(Collectors.toList());
-    }
-
-    public void save(UserDTO user) {
-        userRepository.save(toEntity(user));
     }
 
     private UserDTO toDTO(User user) {
