@@ -17,27 +17,27 @@ import java.time.ZoneId;
 public class MyConfig {
 
     @Bean
-    public MyBean myBean(){
+    public MyBean myBean() {
         MyBean myBean = new MyBean();
         return myBean;
     }
 
     @Bean
-    public MyNewBean myNewBean(){
+    public MyNewBean myNewBean() {
         MyNewBean myNewBean = new MyNewBean();
         myNewBean.setName("SDA");
         return myNewBean;
     }
 
     @Bean
-    SingletonBean singletonBean(){
+    SingletonBean singletonBean() {
         SingletonBean singletonBean = new SingletonBean();
         return singletonBean;
     }
 
     @Bean
     @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
-    PrototypeBean prototypeBean(){
+    PrototypeBean prototypeBean() {
         return new PrototypeBean();
     }
 }

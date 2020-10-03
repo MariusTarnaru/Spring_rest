@@ -3,7 +3,7 @@ package sda.spring.cars.beans;
 import org.springframework.stereotype.Component;
 
 @Component
-public class SmallWheel implements Wheel{
+public class SmallWheel implements Wheel {
 
     Integer size = 3;
 

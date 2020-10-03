@@ -12,7 +12,7 @@ public class MyBean {
         return name;
     }
 
-    public void sayHello(){
+    public void sayHello() {
         System.out.println("Hello " + name);
     }
 }

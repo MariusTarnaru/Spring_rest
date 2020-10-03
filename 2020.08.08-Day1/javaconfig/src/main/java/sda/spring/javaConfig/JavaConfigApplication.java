@@ -11,41 +11,41 @@ import sda.spring.javaConfig.config.MyConfig;
 
 public class JavaConfigApplication {
 
-	public static void main2(String[] args) {
-		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
+    public static void main2(String[] args) {
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
 
-		context.register(MyConfig.class);
-		context.refresh();
+        context.register(MyConfig.class);
+        context.refresh();
 
-		MyBean myBean = (MyBean) context.getBean("myBean");
+        MyBean myBean = (MyBean) context.getBean("myBean");
 //		MyBean myNewBean = (MyNewBean) context.getBean("myNewBean");
 
-		myBean.sayHello();
-		myBean.setName("SDA");
-		myBean.sayHello();
+        myBean.sayHello();
+        myBean.setName("SDA");
+        myBean.sayHello();
 //		myNewBean.sayHello();
 
-		MyBean anotherBean = (MyBean) context.getBean("myBean");
-		anotherBean.sayHello();
+        MyBean anotherBean = (MyBean) context.getBean("myBean");
+        anotherBean.sayHello();
 
 
-	}
+    }
 
-	public static void main(String[] args) throws InterruptedException {
-		AnnotationConfigApplicationContext context
-				= new AnnotationConfigApplicationContext(MyConfig.class);
+    public static void main(String[] args) throws InterruptedException {
+        AnnotationConfigApplicationContext context
+                = new AnnotationConfigApplicationContext(MyConfig.class);
 
-		PrototypeBean firstPrototype = context.getBean(PrototypeBean.class);
+        PrototypeBean firstPrototype = context.getBean(PrototypeBean.class);
 
-		PrototypeBean secondPrototype = context.getBean(PrototypeBean.class);
+        PrototypeBean secondPrototype = context.getBean(PrototypeBean.class);
 
-		firstPrototype.setMessage("Hello");
-		System.out.println(firstPrototype.getMessage());
+        firstPrototype.setMessage("Hello");
+        System.out.println(firstPrototype.getMessage());
 
-		System.out.println(secondPrototype.getMessage());
+        System.out.println(secondPrototype.getMessage());
 
-		secondPrototype.setMessage("Buna ziua");
-		System.out.println(secondPrototype.getMessage());
-	}
+        secondPrototype.setMessage("Buna ziua");
+        System.out.println(secondPrototype.getMessage());
+    }
 
 }

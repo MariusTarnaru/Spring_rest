@@ -14,7 +14,7 @@ public class UserService {
         this.userRepository = userRepository;
     }
 
-    public User getUser(){
+    public User getUser() {
         return userRepository.getUser();
     }
 

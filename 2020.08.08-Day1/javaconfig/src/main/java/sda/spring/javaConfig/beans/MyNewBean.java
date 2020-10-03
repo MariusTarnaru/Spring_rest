@@ -1,6 +1,6 @@
 package sda.spring.javaConfig.beans;
 
-public class MyNewBean extends MyBean{
+public class MyNewBean extends MyBean {
 
     @Override
     public void sayHello() {

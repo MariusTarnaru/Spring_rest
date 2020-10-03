@@ -11,11 +11,11 @@ public class MyBean {
         this.name = name;
     }
 
-    public void setName(String firstName, String lastName){
+    public void setName(String firstName, String lastName) {
         this.name = firstName + " " + lastName;
     }
 
-    public void sayHello(){
+    public void sayHello() {
         System.out.println("Hello " + name);
     }
 }

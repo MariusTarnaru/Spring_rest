@@ -27,7 +27,8 @@
                     </div>
                     <div class="form-group col-md-6">
                         <label for="country" class="col-form-label">Country</label>
-                        <input type="text" th:field="*{country}" class="form-control" id="country" placeholder="Country">
+                        <input type="text" th:field="*{country}" class="form-control" id="country"
+                               placeholder="Country">
                         <span th:if="${#fields.hasErrors('country')}" th:errors="*{country}" class="text-danger"></span>
                     </div>
                 </div>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a42bc65-97bd-4396-8715-374454d49c5c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/Projects.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.08-Day1/demo/src/main/java/com/example/demo/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.08-Day1/demo/src/main/java/com/example/demo/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.08-Day1/demo/src/main/java/com/example/demo/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.08-Day1/demo/src/main/java/com/example/demo/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.08-Day1/demo/src/main/java/com/example/demo/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.08-Day1/demo/src/main/java/com/example/demo/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.08-Day1/javaconfig/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.08-Day1/javaconfig/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.08-Day1/javaconfig/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.08-Day1/javaconfig/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.08-Day1/javaconfig/src/main/java/sda/spring/javaConfig/JavaConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.08-Day1/javaconfig/src/main/java/sda/spring/javaConfig/JavaConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.08-Day1/javaconfig/src/main/java/sda/spring/javaConfig/beans/MyBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.08-Day1/javaconfig/src/main/java/sda/spring/javaConfig/beans/MyBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.08-Day1/javaconfig/src/main/java/sda/spring/javaConfig/beans/MyNewBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.08-Day1/javaconfig/src/main/java/sda/spring/javaConfig/beans/MyNewBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.08-Day1/javaconfig/src/main/java/sda/spring/javaConfig/config/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.08-Day1/javaconfig/src/main/java/sda/spring/javaConfig/config/MyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.08-Day1/javaconfig/src/test/java/sda/spring/javaConfig/JavaConfigApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.08-Day1/javaconfig/src/test/java/sda/spring/javaConfig/JavaConfigApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.08-Day1/xmlConfig/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.08-Day1/xmlConfig/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.08-Day1/xmlConfig/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.08-Day1/xmlConfig/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.08-Day1/xmlConfig/src/main/java/sda/spring/xmlConfig/beans/MyBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.08-Day1/xmlConfig/src/main/java/sda/spring/xmlConfig/beans/MyBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.08-Day1/xmlConfig/src/test/java/sda/spring/xmlConfig/XmlConfigApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.08-Day1/xmlConfig/src/test/java/sda/spring/xmlConfig/XmlConfigApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.09-Day2/cars/src/main/java/sda/spring/cars/beans/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.09-Day2/cars/src/main/java/sda/spring/cars/beans/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.09-Day2/cars/src/main/java/sda/spring/cars/beans/SmallWheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.09-Day2/cars/src/main/java/sda/spring/cars/beans/SmallWheel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.09-Day2/library/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.09-Day2/library/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.09-Day2/library/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.09-Day2/library/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.09-Day2/library/src/main/java/sda/spring/library/LibraryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.09-Day2/library/src/main/java/sda/spring/library/LibraryClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.09-Day2/library/src/test/java/sda/spring/library/LibraryApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.09-Day2/library/src/test/java/sda/spring/library/LibraryApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.22-Day3_Day4_Day5/rest/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.22-Day3_Day4_Day5/rest/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.22-Day3_Day4_Day5/rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.22-Day3_Day4_Day5/rest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.22-Day3_Day4_Day5/rest/src/main/java/sda/spring/rest/RestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.22-Day3_Day4_Day5/rest/src/main/java/sda/spring/rest/RestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.22-Day3_Day4_Day5/rest/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.22-Day3_Day4_Day5/rest/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.22-Day3_Day4_Day5/rest/src/test/java/sda/spring/rest/RestApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.22-Day3_Day4_Day5/rest/src/test/java/sda/spring/rest/RestApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.30-Day6/mvc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.30-Day6/mvc/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.30-Day6/mvc/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.30-Day6/mvc/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.30-Day6/mvc/src/main/resources/templates/user-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.30-Day6/mvc/src/main/resources/templates/user-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020.08.30-Day6/mvc/src/main/resources/templates/user-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2020.08.30-Day6/mvc/src/main/resources/templates/user-edit.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/../target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1911" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1168" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="carrental" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2020.10.03" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="CarrentalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="2020.10.03" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="sda.testing.carrental.CarrentalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a42bc65-97bd-4396-8715-374454d49c5c" name="Default Changelist" comment="" />
+      <created>1601724028199</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601724028199</updated>
+      <workItem from="1601724029491" duration="66000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="66000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1913" y="-7" width="1550" height="934" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

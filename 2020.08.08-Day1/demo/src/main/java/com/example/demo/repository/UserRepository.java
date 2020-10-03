@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class UserRepository {
 
-    public User getUser(){
+    public User getUser() {
         return new User("SDA");
     }
 }

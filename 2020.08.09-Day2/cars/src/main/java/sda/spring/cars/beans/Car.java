@@ -16,9 +16,9 @@ public class Car implements FourWheeler {
         this.wheel = wheel;
     }
 
-   public Integer getWheelSize(){
+    public Integer getWheelSize() {
         return wheel.getSize();
-   }
+    }
 
     public String getName() {
         return name;
